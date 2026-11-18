@@ -130,8 +130,8 @@ a:hover { color: var(--accent); }
 }
 .nav__emblem img { width: 34px; height: 34px; object-fit: contain; }
 .nav__wordmark { display: flex; flex-direction: column; line-height: 1.1; }
-.nav__name { font-family: var(--font-display); font-size: 18px; font-weight: 700; letter-spacing: .02em; }
-.nav__place { font-size: 10px; letter-spacing: .2em; text-transform: uppercase; opacity: .85; }
+.nav__name { font-family: var(--font-display); font-size: 16px; font-weight: 700; letter-spacing: .02em; }
+.nav__place { font-size: 9.5px; letter-spacing: .2em; text-transform: uppercase; opacity: .85; }
 .nav__links {
   display: flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px;
   background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.14);
@@ -399,7 +399,7 @@ a:hover { color: var(--accent); }
   .nav { top: 12px; width: calc(100% - 24px); }
   .nav__bar { min-height: 64px; padding: 7px 8px 7px 8px; }
   .nav__emblem { width: 44px; height: 44px; }
-  .nav__name { font-size: 16px; }
+  .nav__name { font-size: 14.5px; }
   .hero__content { padding-top: 120px; padding-bottom: 60px; }
   .hero__intro { display: none; } /* keep the mobile hero short: headline + planner only */
   .hero__eyebrow { font-size: 12px; letter-spacing: .18em; }
