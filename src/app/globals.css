@@ -401,7 +401,7 @@ a:hover { color: var(--accent); }
   .nav__emblem { width: 44px; height: 44px; }
   .nav__name { font-size: 16px; }
   .hero__content { padding-top: 120px; padding-bottom: 60px; }
-  .hero__intro { font-size: 17px; }
+  .hero__intro { display: none; } /* keep the mobile hero short: headline + planner only */
   .hero__eyebrow { font-size: 12px; letter-spacing: .18em; }
   .hero__eyebrow span { display: none; }
   .highlights__item { padding-right: 0; }
